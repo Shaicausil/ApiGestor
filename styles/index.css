@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../assets/img/img/bgHeader.png);
+    height: 600px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1{
+    color: rgb(250, 166, 10);
+    font-size: 5em;
+}
+
+.parte1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1em;
+    width: 100%;
+}
+
+button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px;
+    font-size: 16px;
+    color: white;
+    border: 2px solid rgb(250, 166, 10);
+    background-color: rgb(250, 166, 10);
+    border-radius: 40px;
+    margin-top: 6em;
+}
+
+section.contenido1 {
+    display: flex;
+    align-items: center;      
+    justify-content: space-between; 
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.texto {
+    width: 50%;            
+    padding-right: 40px;   
+}
+
+.texto h2 {
+    font-size: 3em;
+    color: rgb(250, 166, 10);  
+}
+
+.texto p {
+    font-size: 1.2em;
+    color: black;  
+    margin-top: 10px;
+    font-size: 1.8em;
+}
+
+.imagen {
+    width: 50%;               
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+}
+
+.imagen img {
+    width: 60%;              
+    height: auto;
+}
+
+section.contenido2 {
+    display: flex;
+    align-items: center;      
+    justify-content: space-between; 
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.texto2 {
+    width: 50%;            
+    padding-right: 40px;   
+}
+
+.texto2 h2 {
+    font-size: 3em;
+    color: rgb(250, 166, 10);  
+}
+
+.texto2 p {
+    font-size: 1.2em;
+    color: black;  
+    margin-top: 10px;
+    font-size: 1.8em;
+}
+
+.imagencita {
+    width: 50%;               
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+}
+
+.imagencita img {
+    width: 60%;              
+    height: auto;
+}
+
+section.contenido3{
+    background-image: url(../assets/img/img/bgDown.png);
+    height: 500px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.contenido3 h2{
+    color: #faa60a;
+    font-size: 3em;
+    margin-left: 50px;
+}
+
+.contenido3 p {
+    font-size: 1.2em;
+    color: black;  
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: left;
+    display: flex;
+    width: 50%;
+}
+
+
+.botoncito{
+    margin-left: 50px;
+}
+
+
+footer{
+    height: 500px;
+    background-color: #ff8940;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.afooter{
+    font-size: 30px;
+    color: white;
+    padding-top: 1em;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+    padding-top: 3em;
+}
+
+.derechos{
+    font-size: 20px;
+    color: white;
+    background-color: #ff8940;
+    text-align: center;
+
+}
